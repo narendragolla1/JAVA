@@ -13,13 +13,18 @@
 *            0--=-1 and -1<=3
 *       it will never evaluate the false in the above case so it is called infinite loop
 *
-*   While loop: when no of iterations are not known.(eg: in case of linked list iteration we use while loop)
+*   While loop: when number of iterations are not known.(eg: in case of linked list iteration we use while loop)
 *   -----------
 *              while(test_expression){
 *
 *                   update_expression;
 *               }
 *
+*      do-while:
+*           bit different from for and while loop
+*           similar to while loop
+*           execution once before the test condition is checked.
+*           irrespective of test condition it will execute do loop.
 *
 *
 *
@@ -38,6 +43,19 @@ public class loops {
         for(int i=1;i<=number;i++)
         {
             System.out.println(i);
+        }
+
+        // do while
+        int i=10;
+            do{
+                // excute this statement
+                System.out.println("hello "+"all");
+                i--;
+            }
+            while(i>0);
+        {
+            System.out.println(i);
+
         }
 
 
