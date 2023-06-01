@@ -1,10 +1,17 @@
+   /*Write a program to input the week number (1-7) and print the corresponding day of the week's name
+   input: 1
+   output: Monday
+    
+   
+   */
+
 package switchcase;
 import java.util.Scanner;
 
 public class assignment {
     public static void main(String[] args) {
 
-        /*Write a program to input the week number (1-7) and print the corresponding day of the week's name*/
+     
         Scanner input=new Scanner(System.in);
         System.out.print("Enter number from 1 to 7");
         int number=input.nextInt();
