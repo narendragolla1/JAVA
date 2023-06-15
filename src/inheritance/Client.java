@@ -7,6 +7,5 @@ public class Client {
         System.out.println(user.name);
         user.email="narendra@gmail.com";
         System.out.println(user.email);
-
     }
 }
