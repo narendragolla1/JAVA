@@ -4,7 +4,7 @@ import constructor.Student;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        Student Narendra=new Student("Narendra","narendra@gmail.com");
-        System.out.println(Narendra.email);
+//        Student Narendra=new Student("Narendra","narendra@gmail.com");
+//        System.out.println(Narendra.email);
     }
 }
